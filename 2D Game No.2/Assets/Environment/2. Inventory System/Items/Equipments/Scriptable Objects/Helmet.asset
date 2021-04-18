@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6c251d8af3b0043b191fa91a3a6e30, type: 3}
+  m_Name: Helmet
+  m_EditorClassIdentifier: 
+  itemType: 2
+  prefab: {fileID: 0}
+  sprite: {fileID: 21300000, guid: b53198e42fe6a184ba40b838bdcb8bf5, type: 3}
+  itemID: 3
+  itemName: Helm of Whispers
+  itemDescription: 'Very Rare, Cursed
+
+    +Health (5~10)  +Defence (1~3)
+
+    You
+    are unable to speak even whisper to ohers. '
+  price: 175
+  isStorable: 1
+  isStackable: 0
+  isDestroyedOnUse: 0
+  equipmentType: 2
+  attributes:
+  - attributeType: 1
+    minValue: 5
+    maxValue: 10
+    value: 0
+  - attributeType: 4
+    minValue: 1
+    maxValue: 3
+    value: 0

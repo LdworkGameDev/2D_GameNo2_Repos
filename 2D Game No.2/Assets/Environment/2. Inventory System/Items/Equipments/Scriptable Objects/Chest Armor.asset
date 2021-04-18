@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6c251d8af3b0043b191fa91a3a6e30, type: 3}
+  m_Name: Chest Armor
+  m_EditorClassIdentifier: 
+  itemType: 2
+  prefab: {fileID: 0}
+  sprite: {fileID: 6922426298965024354, guid: 0e436bc4db7b21b40ab8c179057fc89b, type: 3}
+  itemID: 4
+  itemName: Smuggling Coat
+  itemDescription: 'Common
+
+    +Health (15~20)  +Mana (3~5)  +Defence (2~4)
+
+    This
+    ratty looking coat is a boon to smugglers and thieves everywhere.
+
+    Inside 
+    there are many pockets in unlikely seams and in odd locations.'
+  price: 150
+  isStorable: 1
+  isStackable: 0
+  isDestroyedOnUse: 0
+  equipmentType: 3
+  attributes:
+  - attributeType: 1
+    minValue: 15
+    maxValue: 20
+    value: 0
+  - attributeType: 4
+    minValue: 2
+    maxValue: 4
+    value: 0
+  - attributeType: 2
+    minValue: 3
+    maxValue: 5
+    value: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6c251d8af3b0043b191fa91a3a6e30, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemType: 2
+  prefab: {fileID: 0}
+  sprite: {fileID: 1778302723066440352, guid: 62fe870980cf91d498f1ddbb80303f17, type: 3}
+  itemID: 5
+  itemName: Viking Axe
+  itemDescription: 'Rare
+
+    +ATK (5~8)  +Strength(2~4)
+
+    Said to contain the
+    spirits of the Viking warriors.'
+  price: 200
+  isStorable: 1
+  isStackable: 0
+  isDestroyedOnUse: 0
+  equipmentType: 1
+  attributes:
+  - attributeType: 3
+    minValue: 5
+    maxValue: 8
+    value: 0
+  - attributeType: 5
+    minValue: 2
+    maxValue: 4
+    value: 0

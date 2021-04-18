@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6c251d8af3b0043b191fa91a3a6e30, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: 
+  itemType: 2
+  prefab: {fileID: 0}
+  sprite: {fileID: -6224112998426151656, guid: 0e436bc4db7b21b40ab8c179057fc89b, type: 3}
+  itemID: 6
+  itemName: Leather Boots
+  itemDescription: 'Common
+
+    +Health (5~10)  +Mana (1~3)
+
+    Ignore difficult
+    terrain created by marshes or mug.'
+  price: 120
+  isStorable: 1
+  isStackable: 0
+  isDestroyedOnUse: 0
+  equipmentType: 4
+  attributes:
+  - attributeType: 1
+    minValue: 5
+    maxValue: 10
+    value: 0
+  - attributeType: 2
+    minValue: 1
+    maxValue: 3
+    value: 0

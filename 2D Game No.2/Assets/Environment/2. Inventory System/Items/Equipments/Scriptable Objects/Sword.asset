@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6c251d8af3b0043b191fa91a3a6e30, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemType: 2
+  prefab: {fileID: 0}
+  sprite: {fileID: -5503247141314258383, guid: 86befae4bc5a8d74ab1d9798247e744f, type: 3}
+  itemID: 2
+  itemName: Sword of Dehydration
+  itemDescription: 'Rare, Cursed
+
+    +Attack (2~5)
+
+    As you swing it, it moves
+    effortlessly through the air, leaving behind a thin trail of sand'
+  price: 80
+  isStorable: 1
+  isStackable: 0
+  isDestroyedOnUse: 0
+  equipmentType: 1
+  attributes:
+  - attributeType: 3
+    minValue: 2
+    maxValue: 5
+    value: 0
