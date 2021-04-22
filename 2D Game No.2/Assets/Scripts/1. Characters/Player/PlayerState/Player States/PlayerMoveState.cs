@@ -13,6 +13,8 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.LogicUpdate();
 
+        SoundManager.Instance.PlaySound("Audio_PlayerFootstep", playerController.gameObject.transform.position);
+
         if (hasChangeState) return;
 
         playerController.CheckForFlip(xMove);
