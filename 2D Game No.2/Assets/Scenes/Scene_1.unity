@@ -23188,6 +23188,36 @@ PrefabInstance:
       propertyPath: sceneTheme
       value: 
       objectReference: {fileID: 8300000, guid: 6265582014cdad043853499f71f57061, type: 3}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2427256d9c61b7e439c816b352b08f4f, type: 3}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.data[0].name
+      value: Audio_PlayerHit1
+      objectReference: {fileID: 0}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 54eeaf1dabdb0734fb7ac15433435da9, type: 3}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.data[1].name
+      value: Audio_PlayerFootstep
+      objectReference: {fileID: 0}
+    - target: {fileID: 553247519209335842, guid: c905b18be18f3a34f8f8f010cda440d0,
+        type: 3}
+      propertyPath: audioClips.Array.data[1].cooldownTime
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7556083606081140491, guid: c905b18be18f3a34f8f8f010cda440d0,
         type: 3}
       propertyPath: m_RootOrder
